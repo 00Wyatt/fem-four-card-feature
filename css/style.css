@@ -1,0 +1,177 @@
+/* CSS Custom Properties */
+:root {
+    /* Colors
+    Primary: */
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+
+    /* Neutral */
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue: hsl(229, 6%, 66%);
+    --very-light-gray: hsl(0, 0%, 98%);
+}
+
+/* Boilerplate styles */
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9375rem; /* 15px */
+    background: var(--very-light-gray);
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    color: var(--very-dark-blue);
+}
+
+p {
+    margin: 0;
+    color: var(--grayish-blue);
+}
+
+a,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+.attribution {
+    font-size: 0.6875rem; /* 11px */
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Main styles */
+.grid-container {
+    min-height: 100vh;
+    padding: 72px 36px;
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+}
+
+.heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.heading__title {
+    margin-bottom: 18px;
+    font-size: 1.375rem; /* 22px */
+}
+
+.heading__title--light {
+    font-weight: 200;
+    display: block;
+}
+
+.card {
+    background: white; /* Gives the cards a slight pop */
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 10px 16px 1px rgba(0, 0, 0, 0.2);
+    font-size: 0.8125rem; /* 13px */
+    display: grid;
+    gap: 6px;
+}
+
+.card--supervisor {
+    border-top: 4px solid var(--cyan);
+}
+.card--team-builder {
+    border-top: 4px solid var(--red);
+}
+.card--karma {
+    border-top: 4px solid var(--orange);
+}
+.card--calculator {
+    border-top: 4px solid var(--blue);
+}
+
+.card__title {
+    font-size: 1.25rem; /* 20px */
+}
+
+.card__icon {
+    width: 4rem; /* 64px. Scales with browser text size */
+    margin-top: 32px;
+    justify-self: end;
+}
+
+/* Tablet styles */
+@media all and (min-width: 33.75em) { /* 540px */
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 28px;
+    }
+
+    .heading {
+        grid-column: span 2;
+    }
+
+    .heading__title {
+        font-size: 1.875rem; /* 30px */
+        line-height: 1.3;
+    }
+}
+
+/* Desktop styles */
+@media all and (min-width: 55em) { /* 880px */
+    .grid-container {
+        max-width: 72rem; /* 1152px */
+        margin: 0 auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 1fr;
+    }
+
+    .heading {
+        grid-column: span 3;
+        display: grid;
+        align-content: center;
+    }
+
+    .heading__title {
+        font-size: 2.25rem; /* 36px */
+    }
+
+    .heading__text {
+        max-width: 32rem; /* 512px */
+        justify-self: center;
+    }
+
+    .card {
+        min-height: 244px;
+        align-self: center;
+    }
+
+    .card--supervisor {
+        grid-row: span 2;
+    }
+
+    .card--karma {
+        order: 1;
+    }
+
+    .card--calculator {
+        grid-row: span 2;
+    }
+}
