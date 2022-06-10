@@ -86,7 +86,7 @@ a:active {
 
 .card {
     background: white; /* Gives the cards a slight pop */
-    padding: 20px;
+    padding: 26px;
     border-radius: 6px;
     box-shadow: 0 10px 16px 1px rgba(0, 0, 0, 0.2);
     font-size: 0.8125rem; /* 13px */
