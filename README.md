@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/screenshot-four-card-feature-section.png)
+![Four Card Feature Section](images/screenshot-four-card-feature-section.png)
 
 ### Links
 
-- Solution URL: [https://github.com/00Wyatt/fem-four-card-feature]
-- Live Site URL: [https://00wyatt.github.io/fem-four-card-feature/]
+- Solution URL: [Responsive Layout Using CSS-Grid & BEM](https://www.frontendmentor.io/solutions/responsive-layout-using-cssgrid-and-bem-rw3dLt0s3K)
+- Live Site URL: [Frontend Mentor | Four card feature section](https://00wyatt.github.io/fem-four-card-feature/)
 
 ## My process
 
@@ -70,8 +70,8 @@ I will continue to complete more Frontend Mentor challenges, working my way onto
 
 ### Useful resources
 
-- [https://medium.com/@sascha.wolff/dont-use-rem-em-for-paddings-margins-and-more-94e19026b000] - I liked this article I found by Sascha Wolff, on when to use rem and em. It's a quick read and a sound opinion on the subject.
-- [https://cssgrid.io/] - For anyone wanting to master CSS-Grid, check out Wes Bos's free course. It helped me a lot!
+- [Don’t use rem/em for paddings, margins and more](https://medium.com/@sascha.wolff/dont-use-rem-em-for-paddings-margins-and-more-94e19026b000) - I liked this article I found by Sascha Wolff, on when to use rem and em. It's a quick read and a sound opinion on the subject.
+- [CSS Grid.](https://cssgrid.io/) - For anyone wanting to master CSS-Grid, check out Wes Bos's free course. It helped me a lot!
 
 ## Author
 
