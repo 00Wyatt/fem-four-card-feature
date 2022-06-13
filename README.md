@@ -75,4 +75,4 @@ I will continue to complete more Frontend Mentor challenges, working my way onto
 
 ## Author
 
-- Frontend Mentor - [https://www.frontendmentor.io/profile/00Wyatt]
+- Frontend Mentor - [@00Wyatt](https://www.frontendmentor.io/profile/00Wyatt)
